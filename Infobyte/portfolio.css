@@ -1,0 +1,42 @@
+.body{
+    margin:0;
+}
+.navbar
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: bisque;
+}
+.navbar-left{
+    padding:20px;
+}
+.navbar-right{
+    padding: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.a{
+    padding: 3px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75vh;
+    border: 1px solid black;
+    align-items: center;
+}
+.home-left
+{
+    width:50vw;
+}
+.home-right
+{
+ height:75vh;
+ width:40vw;
+ width: 41%;
+ padding: 10px,10px,10px,0;
+}
